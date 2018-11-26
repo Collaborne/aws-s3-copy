@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"outDir": "./build",
+		"outDir": "./dist",
 		"allowSyntheticDefaultImports": true,
 		"declaration": true,
 		"lib": ["es5", "es6", "es2015", "es2016"],

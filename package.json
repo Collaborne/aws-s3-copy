@@ -2,13 +2,15 @@
   "name": "aws-s3-copy",
   "version": "1.0.1",
   "description": "Helper to copy S3 objects within the same bucket",
-  "main": "build/s3-copy.ts",
+  "main": "dist/s3-copy.ts",
+  "types": "dist/s3-copy.d.ts",
   "repository": "https://github.com/Collaborne/aws-s3-copy.git",
   "author": "Collaborne B.V.",
   "license": "Apache-2.0",
   "scripts": {
     "build": "tsc",
-    "lint": "tslint -c tslint.json \"src/**/*.ts\""
+    "lint": "tslint -c tslint.json \"src/**/*.ts\"",
+    "prepublish": "npm run lint && npm run build"
   },
   "devDependencies": {
     "@types/node": "^10.12.10",
