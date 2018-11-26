@@ -7,6 +7,9 @@
   "repository": "https://github.com/Collaborne/aws-s3-copy.git",
   "author": "Collaborne B.V.",
   "license": "Apache-2.0",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "lint": "tslint -c tslint.json \"src/**/*.ts\"",
