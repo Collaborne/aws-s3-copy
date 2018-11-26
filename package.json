@@ -3,7 +3,7 @@
   "version": "1.0.5",
   "description": "Helper to copy S3 objects within the same bucket",
   "main": "dist/s3-copy.js",
-  "types": "dist/s3-copy.d.js",
+  "types": "dist/s3-copy.d.ts",
   "repository": "https://github.com/Collaborne/aws-s3-copy.git",
   "author": "Collaborne B.V.",
   "license": "Apache-2.0",
