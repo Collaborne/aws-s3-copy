@@ -1,6 +1,6 @@
 {
   "name": "aws-s3-copy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Helper to copy S3 objects within the same bucket",
   "main": "build/s3-copy.ts",
   "repository": "https://github.com/Collaborne/aws-s3-copy.git",
