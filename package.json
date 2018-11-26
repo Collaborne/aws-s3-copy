@@ -1,6 +1,6 @@
 {
   "name": "aws-s3-copy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Helper to copy S3 objects within the same bucket",
   "main": "dist/s3-copy.js",
   "types": "dist/s3-copy.d.js",
